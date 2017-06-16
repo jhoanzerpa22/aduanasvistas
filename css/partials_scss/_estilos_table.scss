@@ -1,0 +1,47 @@
+body{
+  background:#007398;
+  font-family:$roboto;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 0.5px solid #4BB9C6;
+}
+
+.table-hover{
+  tbody tr:hover{
+    background:#67B9C5;
+  }
+}
+
+#reportes-Embarques{
+
+}
+
+.reporte_table{
+
+  &--head{
+
+    tr th{
+      color:#fff;
+      text-align:center;
+
+    }
+  }
+
+  &--body{
+
+    tr td > a{
+      text-decoration:underline;
+      color:#fff;
+    }
+  }
+}
+
+
+
+
